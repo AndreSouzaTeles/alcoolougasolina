@@ -36,7 +36,13 @@ class _AlcoolOuGasolinaState extends State<AlcoolOuGasolina> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Alcool ou Gasolina"),
+        title: Row(
+          children: <Widget>[
+            Image.asset("images/iconee.png", width: 50),
+            Text("Alcool Ou Gasolina"),
+          ],
+      ),
+        //Text("Alcool ou Gasolina"),
         backgroundColor: Colors.blue,
       ),
       body: Container(
