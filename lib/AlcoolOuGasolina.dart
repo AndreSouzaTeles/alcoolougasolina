@@ -39,7 +39,7 @@ class _AlcoolOuGasolinaState extends State<AlcoolOuGasolina> {
         title: Row(
           children: <Widget>[
             Image.asset("images/iconee.png", width: 50),
-            Text("Alcool Ou Gasolina"),
+            Text("  Alcool Ou Gasolina"),
           ],
       ),
         //Text("Alcool ou Gasolina"),
